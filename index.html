@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO -->
@@ -13,174 +15,241 @@
     <link rel="icon" href="assets/logo.png">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
     <!-- Navbar -->
     <header>
+
         <nav class="navbar">
 
-            <div class="logo">Prodesk IT</div>
+            <div class="logo">
+                Prodesk IT
+            </div>
 
             <ul class="nav-links" id="navLinks">
+
                 <li><a href="#home">Home</a></li>
+
                 <li><a href="#about">About</a></li>
+
                 <li><a href="#services">Services</a></li>
+
                 <li><a href="#contact">Contact</a></li>
+
             </ul>
 
             <div class="nav-actions">
 
-                <button id="theme-toggle">🌙</button>
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                    🌙
+                </button>
 
-                <div class="menu-toggle" id="menuToggle">
+                <!-- Mobile Menu -->
+                <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open Navigation Menu">
+
                     <i class="fas fa-bars"></i>
-                </div>
+
+                </button>
 
             </div>
 
         </nav>
+
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
+    <!-- Main Content -->
+    <main>
 
-        <div class="hero-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
 
-            <h1>We Build Digital Experiences</h1>
+            <div class="hero-content">
 
-            <p>
-                Transforming businesses with modern web solutions,
-                marketing strategies, and scalable digital products.
-            </p>
+                <h1>We Build Digital Experiences</h1>
 
-            <a href="#services" class="btn">
-                Get Started
-            </a>
+                <p>
+                    Transforming businesses with modern web solutions,
+                    marketing strategies, and scalable digital products.
+                </p>
 
-        </div>
+                <a href="#services" class="btn">
+                    Get Started
+                </a>
 
-    </section>
+            </div>
 
-    <!-- About Section -->
-    <section class="about" id="about">
+        </section>
 
-        <div class="container">
+        <!-- About Section -->
+        <section class="about" id="about">
 
-            <h2>About Us</h2>
+            <div class="container">
 
-            <p>
-                Prodesk IT is a digital solutions company focused on delivering
-                innovative web development, SEO optimization, and digital marketing
-                services to businesses worldwide.
-            </p>
+                <h2>About Us</h2>
 
-        </div>
+                <p>
+                    Prodesk IT is a digital solutions company focused on delivering
+                    innovative web development, SEO optimization, and digital marketing
+                    services to businesses worldwide.
+                </p>
 
-    </section>
+            </div>
 
-    <!-- Services -->
-    <section class="services" id="services">
+        </section>
 
-        <div class="container">
+        <!-- Services -->
+        <section class="services" id="services">
 
-            <h2>Our Services</h2>
+            <div class="container">
 
-            <div class="services-container">
+                <h2>Our Services</h2>
 
-                <!-- Card 1 -->
-                <div class="service-card">
+                <div class="services-container">
 
-                    <i class="fas fa-code"></i>
+                    <!-- Card 1 -->
+                    <div class="service-card">
 
-                    <h3>Web Development</h3>
+                        <i class="fas fa-code"></i>
 
-                    <p>
-                        Modern responsive websites built using latest technologies.
-                    </p>
+                        <h3>Web Development</h3>
 
-                </div>
+                        <p>
+                            Modern responsive websites built using latest technologies.
+                        </p>
 
-                <!-- Card 2 -->
-                <div class="service-card">
+                    </div>
 
-                    <i class="fas fa-chart-line"></i>
+                    <!-- Card 2 -->
+                    <div class="service-card">
 
-                    <h3>SEO Optimization</h3>
+                        <i class="fas fa-chart-line"></i>
 
-                    <p>
-                        Improve rankings and grow your online visibility effectively.
-                    </p>
+                        <h3>SEO Optimization</h3>
 
-                </div>
+                        <p>
+                            Improve rankings and grow your online visibility effectively.
+                        </p>
 
-                <!-- Card 3 -->
-                <div class="service-card">
+                    </div>
 
-                    <i class="fas fa-bullhorn"></i>
+                    <!-- Card 3 -->
+                    <div class="service-card">
 
-                    <h3>Digital Marketing</h3>
+                        <i class="fas fa-bullhorn"></i>
 
-                    <p>
-                        Data-driven marketing campaigns that boost conversions.
-                    </p>
+                        <h3>Digital Marketing</h3>
+
+                        <p>
+                            Data-driven marketing campaigns that boost conversions.
+                        </p>
+
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
+        </section>
 
-    </section>
+        <!-- Contact -->
+        <section class="contact" id="contact">
 
-    <!-- Contact -->
-    <section class="contact" id="contact">
+            <div class="container">
 
-        <div class="container">
+                <h2>Contact Us</h2>
 
-            <h2>Contact Us</h2>
+                <form class="contact-form">
 
-            <form class="contact-form">
+                    <label for="name">
+                        Name
+                    </label>
 
-                <input type="text" placeholder="Your Name" required>
+                    <input type="text"
+                        id="name"
+                        placeholder="Your Name"
+                        required>
 
-                <input type="email" placeholder="Your Email" required>
+                    <label for="email">
+                        Email
+                    </label>
 
-                <textarea rows="5" placeholder="Your Message"></textarea>
+                    <input type="email"
+                        id="email"
+                        placeholder="Your Email"
+                        required>
 
-                <button type="submit" class="btn">
-                    Send Message
-                </button>
+                    <label for="message">
+                        Message
+                    </label>
 
-            </form>
+                    <textarea id="message"
+                        rows="5"
+                        placeholder="Your Message"></textarea>
 
-        </div>
+                    <button type="submit" class="btn">
+                        Send Message
+                    </button>
 
-    </section>
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
 
     <!-- Footer -->
     <footer>
 
         <div class="footer-content">
 
-            <p>© 2026 Prodesk IT. All Rights Reserved.</p>
+            <p>
+                © 2026 Prodesk IT. All Rights Reserved.
+            </p>
 
             <div class="social-icons">
 
-                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"
+                    aria-label="Facebook">
 
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                    <i class="fab fa-facebook"></i>
 
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                </a>
 
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"
+                    aria-label="Instagram">
+
+                    <i class="fab fa-instagram"></i>
+
+                </a>
+
+                <a href="#"
+                    aria-label="LinkedIn">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+                <a href="#"
+                    aria-label="Twitter">
+
+                    <i class="fab fa-twitter"></i>
+
+                </a>
 
             </div>
 
@@ -191,4 +260,5 @@
     <script src="script.js"></script>
 
 </body>
+
 </html>

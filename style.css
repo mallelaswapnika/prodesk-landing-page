@@ -104,6 +104,9 @@ body{
     display:none;
     font-size:1.4rem;
     cursor:pointer;
+
+    border:none;
+    background:none;
 }
 
 /* Hero Section */
@@ -244,6 +247,10 @@ body{
     gap:20px;
 }
 
+.contact-form label{
+    font-weight:600;
+}
+
 .contact-form input,
 .contact-form textarea{
     padding:16px;
@@ -303,7 +310,7 @@ footer{
 }
 
 .dark .nav-links a{
-    color:white;
+    color:#f8fafc;
 }
 
 .dark .service-card{
@@ -325,6 +332,18 @@ footer{
     background:#1e293b;
     color:white;
     border:none;
+}
+
+/* Accessibility Focus Styles */
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus{
+
+    outline:3px solid #2563eb;
+    outline-offset:3px;
+
 }
 
 /* Responsive */
