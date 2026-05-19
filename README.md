@@ -1,31 +1,40 @@
 # Prodesk IT Landing Page
 
-## Live Demo
-Add your deployed Vercel/Netlify link here.
+## Live Website
+Add your Vercel URL here
+
+Example:
+https://prodesk-landing-page-zfsm.vercel.app/
+---
+
+## GitHub Repository
+https://github.com/mallelaswapnika/prodesk-landing-page.git
+
+---
 
 ## Features
-- Responsive Design
-- Dark/Light Mode
-- Sticky Navbar
-- Hover Animations
-- CSS Grid Layout
-- Mobile Navigation Menu
 
-## Tech Stack
+- Responsive Landing Page
+- Dark / Light Mode
+- Sticky Navbar
+- Glassmorphism Navbar
+- Hover Animations
+- Mobile Navigation Menu
+- SEO Optimized
+- Accessibility Optimized
+
+---
+
+## Technologies Used
+
 - HTML5
 - CSS3
 - JavaScript
 
-## Screenshot
-Add project screenshot here.
+---
 
-## Folder Structure
-- index.html
-- style.css
-- script.js
+---
 
 ## Author
+
 Mallela Swapnika
-=======
-# prodesk-landing-page
-Responsive landing page for Prodesk IT built using HTML, CSS, and JavaScript.
