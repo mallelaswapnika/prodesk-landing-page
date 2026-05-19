@@ -26,3 +26,6 @@ Add project screenshot here.
 
 ## Author
 Mallela Swapnika
+=======
+# prodesk-landing-page
+Responsive landing page for Prodesk IT built using HTML, CSS, and JavaScript.
